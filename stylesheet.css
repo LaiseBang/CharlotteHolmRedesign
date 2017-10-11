@@ -1,1 +1,527 @@
-@{layout="layout.cshtml";}
+        /**Generelt**/
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #oereringe,
+        #halskaeder,
+        #armbaand,
+        #nyheder,
+        #om,
+            {
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+        html {
+            font-size: 1em;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        /********** menu **************/
+
+        header {
+            position: fixed;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+            width: 100%;
+        }
+
+        header nav {
+            font-family: 'XXXX';
+            text-align: right;
+            margin: 0 5vw 0 0;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #352224;
+            padding-left: 5px;
+            display: block;
+        }
+
+        header img {
+            display: block;
+            margin: auto;
+            width: 20vw;
+        }
+
+        @media screen and (min-width: 676px) {
+            header nav a {
+                display: inline-block;
+            }
+        }
+
+        /********** menu slut **************/
+
+        /*******Navigation***/
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+        }
+
+        nav {
+            font-family: 'XXXX';
+            font-size: 1.1em;
+            text-align-last: right;
+        }
+
+        /****** Fonte********------rem forholder sig til sidens størrelse hvis ikke andet er defineret er 1em= 16px---------*/
+
+        @font-face {
+            font-family: 'XXXX';
+            src: url('fonts/p22morrisgolden_regular-webfont.woff2') format('woff2'), url('fonts/p22morrisgolden_regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'XXXX';
+            src: url('fonts/p22_morris_troy_regular-webfont.woff2') format('woff2'), url('fonts/p22_morris_troy_regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .forklaring {
+            font-size: 1rem;
+            margin-left: 1em;
+            font-family: 'XXXX', serif;
+        }
+
+        h1 {
+            font-family: 'XXXX';
+            font-weight: 800;
+            font-size: 2.4em;
+            letter-spacing: 1px;
+            margin: 10px;
+        }
+
+        h2 {
+            font-family: 'XXXX';
+            font-weight: 800;
+            font-size: 2.4em;
+            letter-spacing: 1px;
+            margin: 10px;
+        }
+
+        h3 {
+            font-family: 'XXXX';
+            font-weight: 800;
+            font-size: 1.6em;
+            margin: 10px;
+        }
+
+        h4 {
+            font-family: 'XXXX';
+            font-weight: 800;
+            font-size: 1.4em;
+            padding: 0.5px;
+            margin: 10px;
+        }
+
+        h5 {
+            font-family: 'XXXX';
+            font-weight: 800;
+            font-size: 1.4em;
+            padding: 10px;
+        }
+
+        p {
+            font-family: 'XXXX', serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            margin: 10px;
+        }
+
+        b {
+            font-family: 'XXXX';
+            font-weight: 800;
+            font-size: 1.2em;
+        }
+
+        .first_a {
+            font-size: 3em;
+            font-family: 'XXXX';
+        }
+
+        .first_e,
+        .first_t,
+        .first_k,
+        .first_l,
+        .first_s {
+            font-size: 3em;
+            font-family: 'MorrisTroy';
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /********splash*******/
+
+        #splash {
+            width: 100vw;
+            height: 167vw;
+            /*            background-image: url(images/splash/mobile_portrait.jpg);*/
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        #splash .logo {
+            padding: 15px;
+            width: 15vw;
+            box-sizing: content-box;
+        }
+
+        #splash .logo img {
+            width: 100%;
+        }
+
+        /*
+        @media screen and (min-width: 376px) and (max-width: 768px) and (orientation: portrait) {
+            body {}
+            #splash {
+                background-image: url(images/splash/tablet_portrait.jpg);
+                height: 133vw;
+            }
+            #splash .logo {
+                padding: 15px;
+                width: 12vw;
+            }
+        }
+
+        @media screen and (min-width: 376px) and (max-width: 627px) and (orientation: landscape) {
+            body {}
+            #splash {
+                background-image: url(images/splash/mobile_lanscape.jpg);
+                height: 60vw;
+            }
+            #splash .logo {
+                padding: 10px;
+                width: 10vw;
+            }
+        }
+
+        @media screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
+            body {}
+            #splash {
+                background-image: url(images/splash/tablet_lanscape.jpg);
+                height: 75vw;
+            }
+            #splash .logo {
+                padding: 10px;
+                width: 10vw;
+            }
+        }
+
+        @media screen and (min-width: 1025px) and (max-width: 2560px) and (orientation: landscape) {
+            body {}
+            #splash {
+                background-image: url(images/splash/desktop.jpg);
+                height: 56vw;
+            }
+            #splash .logo {
+                padding: 10px;
+                width: 7vw;
+            }
+        }
+
+        @media (min-width: 1025px),
+        screen and (min-resolution:192dpi) and (min-width:1025px) {
+            #splash {
+                background-image: url(images/splash/desktop_retina.jpg)
+            }
+        }
+*/
+
+        /**@media screen and (min-width: 2561px) and (orientation: landscape) {
+    body {}
+    #splash {
+        background-image: url(images/splash/desktop_retina.jpg);
+        height: 56vw;
+    }
+    #splash .logo {
+        padding: 10px;
+        width: 7vw;
+    }
+}
+
+
+/***
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+(min-resolution: 192dpi) and (min-width: 1025px) {
+    #splash {
+        background-image: url(images/splash/desktop_retina.jpg);
+    }
+    #splash .logo {
+        padding: 10px;
+        width: 7vw;
+    }
+} **/
+
+        /**********splash slut***************/
+
+        /**********farver ******************/
+
+        .farve {
+            width: 40px;
+            height: 40px;
+            border-radius: 100px;
+            /** = rund 10px_ runde hjørner*/
+        }
+
+        .corel {
+            background-color: #f1826b
+        }
+
+        .brown {
+            background-color: #8c7154
+        }
+
+        .beige {
+            background-color: #cebca5
+        }
+
+        .rosa {
+            background-color: #fdf2f0
+        }
+
+        .eggshell {
+            background-color: #f5f5f5
+        }
+
+        .black {
+            background-color: #000000
+        }
+
+        /* sectionen #om */
+
+        #om .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #om .column {
+            flex-grow: 1;
+            flex-basis: 375px;
+            margin: 10px;
+            border-style: solid;
+            border-color: #888559;
+        }
+
+        #om img {
+            width: 90%;
+            margin: 10px;
+            align-items: center;
+        }
+
+        /* sectionen #eksempler */
+
+        #eksempler .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #eksempler .column {
+            flex-grow: 1;
+            flex-basis: 250px;
+            margin: 4px;
+            border-style: solid;
+            border-color: #888559;
+        }
+
+        #eksempler .column_content {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+
+        #eksempler .top {
+            align-self: auto;
+            flex-grow: 1;
+        }
+
+        #eksempler .bottom {
+            align-self: flex-end;
+            flex-grow: 1;
+        }
+
+        #eksempler img {
+            width: 100%;
+            flex: none;
+            align-items: center;
+            padding: 10px;
+        }
+
+        /* sektionen typografi */
+
+        #typografi .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #typografi .column_content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #typografi .column_wide {
+            flex-grow: 3;
+            flex-basis: 400px;
+            border-style: solid;
+            border-color: #888559;
+            margin: 10px;
+        }
+
+        #typografi .column_narrow {
+            flex-grow: 1;
+            flex-basis: 400px;
+            border-style: solid;
+            border-color: #888559;
+            margin: 10px;
+        }
+
+        #typografi .column_wide img {
+            width: 30%;
+        }
+
+        #typografi .column_narrow img {
+            width: 60%;
+            margin: 10px;
+        }
+
+        #typografi .top {
+            border: 1px;
+        }
+
+        #typografi .bottom {
+            border: 1px;
+        }
+
+        #typografi img {
+            width: 20vw;
+        }
+
+        #typografi .top img {
+            float: right;
+            margin: 10px;
+        }
+
+        #typografi .bottom img {
+            float: left;
+            margin: 10px;
+        }
+
+        #typografi .clearfloat {
+            clear: both;
+        }
+
+        /*komposition_farver*/
+
+        #komposition_farver .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #komposition_farver .column_wide {
+            flex-grow: 2;
+            flex-basis: 400px;
+            margin: 10px;
+            border-style: solid;
+            border-color: #888559;
+        }
+
+        #komposition_farver .column_narrow {
+            flex-grow: 1;
+            flex-basis: 400px;
+            margin: 10px;
+            border-style: solid;
+            border-color: #888559;
+        }
+
+        #komposition_farver .column_content {
+            display: flex;
+            flex-wrap: wrap;
+            /*height: 100%; */
+        }
+
+        #komposition_farver img {
+            width: 70%;
+            margin: 10px;
+        }
+
+        #komposition_farver .colors {
+            flex-grow: 0;
+            flex-basis: 50px;
+            margin: 2px;
+        }
+
+        #komposition_farver .content {
+            flex-grow: 3;
+            flex-basis: 400px;
+        }
+
+        /**links**/
+
+        #links .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+            background-image: url(images/ornament1.jpg);
+            background-repeat: repeat-y;
+            background-attachment: fixed;
+            background-size: 600px;
+            background-position: right;
+        }
+
+        #links .content {
+            flex-grow: 1;
+            flex-basis: 400px;
+            border-style: solid;
+            border-color: #888559;
+            margin: 10px;
+        }
+
+        #links .content {
+            padding: 10px;
+        }
+
+        #links a {
+            text-decoration: none;
+            color: #352224;
+            padding-left: 4px;
+        }
+
+        #links a:hover {
+            color: #92aa04;
+        }
+
+        /*ekstra*/
+
+        #ekstra .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #ekstra .column {
+            flex-grow: 1;
+            flex-basis: 400px;
+            border-style: solid;
+            border-color: #888559;
+            margin: 10px;
+        }
+
+        #ekstra img {
+            width: 80%;
+            margin: 10px;
+        }
