@@ -72,6 +72,10 @@
         }
 */
 
+        header {
+            height: 30vw;
+        }
+
         nav {
             font-family: 'XXXX';
             font-size: 1.1em;
@@ -135,7 +139,8 @@
 
         #splash {
             width: 100vw;
-            height: 167vw;
+            height: 30vw;
+            /*** styrer hvor meget plads der er til billederne, hvis den er for stor er de efterfølgende sektioner for langt nede på siden ***/
             /*            background-image: url(images/splash/mobile_portrait.jpg);*/
             background-repeat: no-repeat;
             background-size: 100%;
@@ -144,9 +149,9 @@
 
 
         #cf {
-            position: relative;
+            position: sticky;
             height: 281px;
-            width: 450px;
+            width: 30vw;
             margin: 0 auto;
         }
 
