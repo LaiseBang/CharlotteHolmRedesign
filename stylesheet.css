@@ -24,7 +24,8 @@
         }
 
         /********** menu **************/
-/*
+
+        /*
         header {
             position: fixed;
 
@@ -32,6 +33,7 @@
             width: 100%;
         }
 */
+
         header nav {
             font-family: 'heiti TC';
             text-transform: uppercase;
@@ -115,7 +117,7 @@
         h1 {
             font-family: 'Myriad pro' sans-serif;
             font-weight: 700;
-            font-size: 1,6em;
+            font-size: 1, 6em;
             letter-spacing: 1px;
             margin: 10px;
         }
@@ -123,7 +125,7 @@
         h2 {
             font-family: 'Myriad pro' sans-serif;
             font-weight: 800;
-            font-size: 1,4em;
+            font-size: 1, 4em;
             letter-spacing: 1px;
             margin: 10px;
         }
@@ -511,4 +513,27 @@
             width: 90%;
             margin: 10px;
             align-items: center;
+        }
+
+        #information {
+            font-family: 'heiti TC';
+            text-transform: uppercase;
+            font-size: 0.8em;
+            margin: 0 0vw 0 0;
+            background-color: #f3c7be;
+            text-align-last: center;
+            padding: 15px;
+            text-decoration: none;
+            display: block;
+        }
+
+        #information button {
+            background-color: #f3c7be;
+            border: none;
+            font-family: 'heiti TC';
+            font-size: 1.2em;
+        }
+
+        #information input {
+            width: 40vw;
         }
