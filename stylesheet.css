@@ -2,6 +2,7 @@
 
         * {
             box-sizing: border-box;
+            background-color: #f5f5f5;
         }
 
         #oereringe,
@@ -32,8 +33,9 @@
 
         header nav {
             font-family: 'XXXX';
+            margin: 0 0vw 0 0;
+            background-color: #f3c7be;
             text-align: right;
-            margin: 0 5vw 0 0;
         }
 
         header nav a {
@@ -41,6 +43,7 @@
             color: #352224;
             padding-left: 5px;
             display: block;
+            background-color: #f3c7be;
         }
 
         header img {
