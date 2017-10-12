@@ -117,16 +117,18 @@
             margin: 10px;
         }
 
-
-
         p {
             font-family: 'Raleway', sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 1em;
             margin: 10px;
+            color: black;
         }
 
+        a {
+            text-decoration: none;
+        }
 
         body {
             margin: 0;
