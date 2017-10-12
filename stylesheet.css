@@ -32,10 +32,12 @@
         }
 
         header nav {
-            font-family: 'XXXX';
+            font-family: 'heiti TC';
+            font-size: 1em;
             margin: 0 0vw 0 0;
             background-color: #f3c7be;
-            text-align: right;
+            text-align-last: justify;
+            padding: 15px;
         }
 
         header nav a {
