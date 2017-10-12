@@ -79,7 +79,7 @@
             text-align-last: right;
         }
 
-        /****** Fonte********------rem forholder sig til sidens størrelse hvis ikke andet er defineret er 1em= 16px---------*/
+        /****** Fonte********------em forholder sig til sidens størrelse hvis ikke andet er defineret er 1em= 16px---------*/
 
         @font-face {
             font-family: 'XXXX';
@@ -98,7 +98,7 @@
         .forklaring {
             font-size: 1em;
             margin-left: 1em;
-            font-family: 'myriad pro';
+            font-family: 'Raleway', sans-serif;
         }
 
         h1 {
@@ -110,7 +110,7 @@
         }
 
         h2 {
-            font-family: 'Myriad pro' sans-serif;
+            font-family: 'Raleway', sans-serif;
             font-weight: 800;
             font-size: 1, 4em;
             letter-spacing: 1px;
@@ -120,7 +120,7 @@
 
 
         p {
-            font-family: 'myriad pro' sans-serif;
+            font-family: 'Raleway', sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 1em;
