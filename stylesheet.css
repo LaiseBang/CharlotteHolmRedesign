@@ -490,6 +490,8 @@
             align-items: center;
         }
 
+        /** sektionen Information **/
+
         #information {
             font-family: 'Quicksand', sans-serif;
             text-transform: uppercase;
@@ -511,4 +513,41 @@
 
         #information input {
             width: 40vw;
+        }
+
+        /** Information slut **/
+
+        /** Produkt.html -- sektionen produkt **/
+
+        #produkt .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #produkt .column {
+            flex-grow: 1;
+            flex-basis: 250px;
+            margin: 4px;
+        }
+
+        #produkt.column_content {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+
+        }
+
+        #produkt .top {
+            align-self: auto;
+            flex-grow: 1;
+            padding: 20px 75px 75px 75px;
+        }
+
+        #produkt .bottom {
+            align-self: flex-end;
+            flex-grow: 1;
+            padding-bottom: 75px;
+            padding-left: 75px;
+            padding-right: 75px;
+
         }
