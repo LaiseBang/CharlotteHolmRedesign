@@ -33,7 +33,8 @@
 
         header nav {
             font-family: 'heiti TC';
-            font-size: 1em;
+            text-transform: uppercase;
+            font-size: 0.8em;
             margin: 0 0vw 0 0;
             background-color: #f3c7be;
             text-align-last: justify;
@@ -82,7 +83,7 @@
         }
 
         nav {
-            font-family: 'XXXX';
+            font-family: 'Heiti TC';
             font-size: 1.1em;
             text-align-last: right;
         }
@@ -104,23 +105,23 @@
         }
 
         .forklaring {
-            font-size: 1rem;
+            font-size: 1em;
             margin-left: 1em;
-            font-family: 'XXXX', serif;
+            font-family: 'myriad pro';
         }
 
         h1 {
-            font-family: 'XXXX';
-            font-weight: 800;
-            font-size: 2.4em;
+            font-family: 'Myriad pro';
+            font-weight: 700;
+            font-size: 1,6em;
             letter-spacing: 1px;
             margin: 10px;
         }
 
         h2 {
-            font-family: 'XXXX';
+            font-family: 'Myriad pro';
             font-weight: 800;
-            font-size: 2.4em;
+            font-size: 1,4em;
             letter-spacing: 1px;
             margin: 10px;
         }
@@ -128,7 +129,7 @@
 
 
         p {
-            font-family: 'XXXX', serif;
+            font-family: 'myriad pro';
             font-style: normal;
             font-weight: 400;
             font-size: 1em;
@@ -346,7 +347,7 @@
             flex-basis: 250px;
             margin: 4px;
             border-style: solid;
-            border-color: #888559;
+            border-color: #cebca5;
         }
 
         #oereringe .column_content {
@@ -384,7 +385,7 @@
             flex-basis: 250px;
             margin: 4px;
             border-style: solid;
-            border-color: #888559;
+            border-color: #cebca5;
         }
 
         #halskaeder .column_content {
@@ -422,7 +423,7 @@
             flex-basis: 250px;
             margin: 4px;
             border-style: solid;
-            border-color: #888559;
+            border-color: #cebca5;
         }
 
         #armbaand .column_content {
@@ -460,7 +461,7 @@
             flex-basis: 250px;
             margin: 4px;
             border-style: solid;
-            border-color: #888559;
+            border-color: #cebca5;
         }
 
         #nyheder .column_content {
@@ -498,7 +499,7 @@
             flex-basis: 375px;
             margin: 10px;
             border-style: solid;
-            border-color: #888559;
+            border-color: #cebca5;
         }
 
         #om img {
