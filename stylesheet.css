@@ -188,6 +188,7 @@
             animation-iteration-count: infinite;
             animation-duration: 5s;
             animation-direction: alternate;
+            animation-delay: 4s;
         }
 
         #cf img.middle {
@@ -196,6 +197,7 @@
             animation-iteration-count: infinite;
             animation-duration: 5s;
             animation-direction: alternate;
+            animation-delay: 2s;
         }
 
         /* kan slettes (XXXX)
