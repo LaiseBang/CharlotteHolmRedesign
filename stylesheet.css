@@ -24,13 +24,14 @@
         }
 
         /********** menu **************/
-
+/*
         header {
             position: fixed;
+
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
             width: 100%;
         }
-
+*/
         header nav {
             font-family: 'heiti TC';
             text-transform: uppercase;
@@ -48,6 +49,7 @@
             display: block;
             background-color: #f3c7be;
         }
+
 
         header img {
             display: block;
@@ -111,7 +113,7 @@
         }
 
         h1 {
-            font-family: 'Myriad pro';
+            font-family: 'Myriad pro' sans-serif;
             font-weight: 700;
             font-size: 1,6em;
             letter-spacing: 1px;
@@ -119,7 +121,7 @@
         }
 
         h2 {
-            font-family: 'Myriad pro';
+            font-family: 'Myriad pro' sans-serif;
             font-weight: 800;
             font-size: 1,4em;
             letter-spacing: 1px;
@@ -129,7 +131,7 @@
 
 
         p {
-            font-family: 'myriad pro';
+            font-family: 'myriad pro' sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 1em;
@@ -342,12 +344,15 @@
             flex-wrap: wrap;
         }
 
+
         #oereringe .column {
             flex-grow: 1;
             flex-basis: 250px;
             margin: 4px;
+            /*
             border-style: solid;
             border-color: #cebca5;
+            */
         }
 
         #oereringe .column_content {
