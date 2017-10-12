@@ -102,9 +102,9 @@
         }
 
         h1 {
-            font-family: 'Myriad pro' sans-serif;
+            font-family: 'Tangerine', cursive;
             font-weight: 700;
-            font-size: 1, 6em;
+            font-size: 2.2em;
             letter-spacing: 1px;
             margin: 10px;
         }
@@ -143,12 +143,10 @@
             background-size: 100%;
         }
 
-
-
         #cf {
             position: sticky;
-            height: 281px;
-            width: 30vw;
+            height: 425px;
+            width: 50vw;
             margin: 0 auto;
         }
 
@@ -159,6 +157,7 @@
             -moz-transition: opacity 1s ease-in-out;
             -o-transition: opacity 1s ease-in-out;
             transition: opacity 1s ease-in-out;
+            padding: 10px;
         }
 
         @keyframes cf3FadeInOut {
@@ -203,8 +202,7 @@
 
         #splash .logo img {
             width: 100%;
-        }
-*/
+        } */
 
         /*
         @media screen and (min-width: 376px) and (max-width: 768px) and (orientation: portrait) {
