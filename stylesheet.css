@@ -35,7 +35,7 @@
 */
 
         header nav {
-         font-family: 'Quicksand', sans-serif;
+            font-family: 'Quicksand', sans-serif;
             text-transform: uppercase;
             font-size: 0.8em;
             margin: 0 0vw 0 0;
@@ -83,11 +83,11 @@
 */
 
         header {
-            height: 30vw;
+            height: auto;
         }
 
         nav {
-                        font-family: 'Quicksand', sans-serif;
+            font-family: 'Quicksand', sans-serif;
             font-size: 1.1em;
             text-align-last: right;
         }
@@ -149,7 +149,7 @@
 
         #splash {
             width: 100vw;
-            height: 30vw;
+            height: auto;
             /*** styrer hvor meget plads der er til billederne, hvis den er for stor er de efterfølgende sektioner for langt nede på siden ***/
             /*            background-image: url(images/splash/mobile_portrait.jpg);*/
             background-repeat: no-repeat;
