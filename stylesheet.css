@@ -35,7 +35,7 @@
 */
 
         header nav {
-            font-family: 'heiti TC';
+         font-family: 'Quicksand', sans-serif;
             text-transform: uppercase;
             font-size: 0.8em;
             margin: 0 0vw 0 0;
@@ -87,7 +87,7 @@
         }
 
         nav {
-            font-family: 'Heiti TC';
+                        font-family: 'Quicksand', sans-serif;
             font-size: 1.1em;
             text-align-last: right;
         }
