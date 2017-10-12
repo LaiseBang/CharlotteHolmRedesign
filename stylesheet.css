@@ -516,7 +516,7 @@
         }
 
         #information {
-            font-family: 'heiti TC';
+            font-family: 'Quicksand', sans-serif;
             text-transform: uppercase;
             font-size: 0.8em;
             margin: 0 0vw 0 0;
@@ -530,7 +530,7 @@
         #information button {
             background-color: #f3c7be;
             border: none;
-            font-family: 'heiti TC';
+            font-family: 'Quicksand', sans-serif;
             font-size: 1.2em;
         }
 
