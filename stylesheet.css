@@ -35,7 +35,7 @@
 */
 
         header nav {
-            font-family: 'heiti TC';
+            font-family: 'Quicksand', sans-serif;
             text-transform: uppercase;
             font-size: 0.8em;
             margin: 0 0vw 0 0;
@@ -83,11 +83,11 @@
 */
 
         header {
-            height: 30vw;
+            height: auto;
         }
 
         nav {
-            font-family: 'Heiti TC';
+            font-family: 'Quicksand', sans-serif;
             font-size: 1.1em;
             text-align-last: right;
         }
@@ -149,7 +149,7 @@
 
         #splash {
             width: 100vw;
-            height: 30vw;
+            height: auto;
             /*** styrer hvor meget plads der er til billederne, hvis den er for stor er de efterfølgende sektioner for langt nede på siden ***/
             /*            background-image: url(images/splash/mobile_portrait.jpg);*/
             background-repeat: no-repeat;
@@ -351,10 +351,6 @@
             flex-grow: 1;
             flex-basis: 250px;
             margin: 4px;
-            /*
-            border-style: solid;
-            border-color: #cebca5;
-            */
         }
 
         #oereringe .column_content {
@@ -391,8 +387,6 @@
             flex-grow: 1;
             flex-basis: 250px;
             margin: 4px;
-            border-style: solid;
-            border-color: #cebca5;
         }
 
         #halskaeder .column_content {
@@ -429,8 +423,6 @@
             flex-grow: 1;
             flex-basis: 250px;
             margin: 4px;
-            border-style: solid;
-            border-color: #cebca5;
         }
 
         #armbaand .column_content {
@@ -467,8 +459,6 @@
             flex-grow: 1;
             flex-basis: 250px;
             margin: 4px;
-            border-style: solid;
-            border-color: #cebca5;
         }
 
         #nyheder .column_content {
@@ -505,8 +495,6 @@
             flex-grow: 1;
             flex-basis: 375px;
             margin: 10px;
-            border-style: solid;
-            border-color: #cebca5;
         }
 
         #om img {
@@ -516,7 +504,7 @@
         }
 
         #information {
-            font-family: 'heiti TC';
+            font-family: 'Quicksand', sans-serif;
             text-transform: uppercase;
             font-size: 0.8em;
             margin: 0 0vw 0 0;
@@ -530,7 +518,7 @@
         #information button {
             background-color: #f3c7be;
             border: none;
-            font-family: 'heiti TC';
+            font-family: 'Quicksand', sans-serif;
             font-size: 1.2em;
         }
 
