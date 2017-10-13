@@ -331,7 +331,7 @@
                 margin: 0 0vw 0 0;
                 background-color: #f3c7be;
                 text-align-last: center;
-                padding: 15px;
+                padding: 10px;
                 text-decoration: none;
                 display: block;
             }
@@ -385,12 +385,13 @@
             footer {
                 font-family: 'Quicksand', sans-serif;
                 text-transform: uppercase;
-                font-size: 0.8em;
-                margin: 0 0vw 0 0;
-                background-color: #f3c7be;
+                font-size: 0.7em;
+                margin: 0vw 0vw 0vw 0vw;
+                background-color:#cebca5;
                 text-align-last: center;
                 text-decoration: none;
                 display: block;
+                padding: 1px;
             }
 
 
