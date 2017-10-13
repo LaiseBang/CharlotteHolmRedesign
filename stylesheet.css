@@ -132,283 +132,301 @@
         }
 
 
-            /**********farver ******************/
-            .farve {
-                width: 40px;
-                height: 40px;
-                border-radius: 100px;
-                /** = rund 10px_ runde hjørner*/
-            }
+        /**********farver ******************/
 
-            .corel {
-                background-color: #f1826b
-            }
+        .farve {
+            width: 40px;
+            height: 40px;
+            border-radius: 100px;
+            /** = rund 10px_ runde hjørner*/
+        }
 
-            .brown {
-                background-color: #8c7154
-            }
+        .corel {
+            background-color: #f1826b
+        }
 
-            .beige {
-                background-color: #cebca5
-            }
+        .brown {
+            background-color: #8c7154
+        }
 
-            .rosa {
-                background-color: #fdf2f0
-            }
+        .beige {
+            background-color: #cebca5
+        }
 
-            .eggshell {
-                background-color: #f5f5f5
-            }
+        .rosa {
+            background-color: #fdf2f0
+        }
 
-            .black {
-                background-color: #000000
-            }
+        .eggshell {
+            background-color: #f5f5f5
+        }
 
-
-
-            /* sectionen #oereringe */
-            #oereringe .sectionwrapper {
-                display: flex;
-                flex-wrap: wrap;
-            }
-
-
-            #oereringe .column {
-                flex-grow: 1;
-                flex-basis: 250px;
-                margin: 4px;
-            }
-
-            #oereringe .column_content {
-                display: flex;
-                flex-wrap: wrap;
-                height: 100%;
-            }
-
-            #oereringe .top {
-                align-self: auto;
-                flex-grow: 1;
-            }
-
-            #oereringe .bottom {
-                align-self: flex-end;
-                flex-grow: 1;
-            }
-
-            #oereringe img {
-                width: 100%;
-                flex: none;
-                align-items: center;
-                padding: 10px;
-            }
-
-            /* sectionen #halskaeder */
-            #halskaeder .sectionwrapper {
-                display: flex;
-                flex-wrap: wrap;
-            }
-
-            #halskaeder .column {
-                flex-grow: 1;
-                flex-basis: 250px;
-                margin: 4px;
-            }
-
-            #halskaeder .column_content {
-                display: flex;
-                flex-wrap: wrap;
-                height: 100%;
-            }
-
-            #halskaeder .top {
-                align-self: auto;
-                flex-grow: 1;
-            }
-
-            #halskaeder .bottom {
-                align-self: flex-end;
-                flex-grow: 1;
-            }
-
-            #halskaeder img {
-                width: 100%;
-                flex: none;
-                align-items: center;
-                padding: 10px;
-            }
-
-            /* sectionen #armbaand */
-            #armbaand .sectionwrapper {
-                display: flex;
-                flex-wrap: wrap;
-            }
-
-            #armbaand .column {
-                flex-grow: 1;
-                flex-basis: 250px;
-                margin: 4px;
-            }
-
-            #armbaand .column_content {
-                display: flex;
-                flex-wrap: wrap;
-                height: 100%;
-            }
-
-            #armbaand .top {
-                align-self: auto;
-                flex-grow: 1;
-            }
-
-            #armbaand .bottom {
-                align-self: flex-end;
-                flex-grow: 1;
-            }
-
-            #armbaand img {
-                width: 100%;
-                flex: none;
-                align-items: center;
-                padding: 10px;
-            }
-
-            /* sectionen #nyheder */
-            #nyheder .sectionwrapper {
-                display: flex;
-                flex-wrap: wrap;
-            }
-
-            #nyheder .column {
-                flex-grow: 1;
-                flex-basis: 250px;
-                margin: 4px;
-            }
-
-            #nyheder .column_content {
-                display: flex;
-                flex-wrap: wrap;
-                height: 100%;
-            }
-
-            #nyheder .top {
-                align-self: auto;
-                flex-grow: 1;
-            }
-
-            #nyheder .bottom {
-                align-self: flex-end;
-                flex-grow: 1;
-            }
-
-            #nyheder img {
-                width: 100%;
-                flex: none;
-                align-items: center;
-                padding: 10px;
-            }
-
-            /* sectionen #om */
-            #om .sectionwrapper {
-                display: flex;
-                flex-wrap: wrap;
-            }
-
-            #om .column {
-                flex-grow: 1;
-                flex-basis: 375px;
-                margin: 10px;
-            }
-
-            #om img {
-                width: 90%;
-                margin: 10px;
-                align-items: center;
-            }
-
-            /** sektionen Information **/
-            #information {
-                font-family: 'Quicksand', sans-serif;
-                text-transform: uppercase;
-                font-size: 0.8em;
-                margin: 0 0vw 0 0;
-                background-color: #f3c7be;
-                text-align-last: center;
-                padding: 10px;
-                text-decoration: none;
-                display: block;
-            }
-
-            #information button {
-                background-color: #f3c7be;
-                border: none;
-                font-family: 'Quicksand', sans-serif;
-                font-size: 1.2em;
-            }
-
-            #information input {
-                width: 40vw;
-            }
-
-            /** Information slut **/
-            /** Produkt.html -- sektionen produkt **/
-            #produkt .sectionwrapper {
-                display: flex;
-                flex-wrap: wrap;
-            }
-
-            #produkt .column {
-                flex-grow: 1;
-                flex-basis: 250px;
-                margin: 4px;
-            }
-
-            #produkt.column_content {
-                display: flex;
-                flex-wrap: wrap;
-                height: 100%;
-
-            }
-
-            #produkt .top {
-                align-self: auto;
-                flex-grow: 1;
-                padding: 20px 75px 75px 75px;
-            }
-
-            #produkt .bottom {
-                align-self: flex-end;
-                flex-grow: 1;
-                padding-bottom: 75px;
-                padding-left: 75px;
-                padding-right: 75px;
-
-            }
-
-#produkt .bottom img {
-    align-self: center;
-    width: 10%;
-}
-
-            footer {
-                font-family: 'Quicksand', sans-serif;
-                text-transform: uppercase;
-                font-size: 0.7em;
-                margin: 0vw 0vw 0vw 0vw;
-                background-color:#cebca5;
-                text-align-last: center;
-                text-decoration: none;
-                display: block;
-                padding: 1px;
-            }
+        .black {
+            background-color: #000000
+        }
 
 
 
-            footer p {
-                background-color: #cebca5;
-            }
+        /* sectionen #oereringe */
+
+        #oereringe .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
 
 
-  /********splash*******/
+        #oereringe .column {
+            flex-grow: 1;
+            flex-basis: 250px;
+            margin: 4px;
+        }
+
+        #oereringe .column_content {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+
+        #oereringe .top {
+            align-self: auto;
+            flex-grow: 1;
+        }
+
+        #oereringe .bottom {
+            align-self: flex-end;
+            flex-grow: 1;
+        }
+
+        #oereringe img {
+            width: 100%;
+            flex: none;
+            align-items: center;
+            padding: 10px;
+        }
+
+        /* sectionen #halskaeder */
+
+        #halskaeder .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #halskaeder .column {
+            flex-grow: 1;
+            flex-basis: 250px;
+            margin: 4px;
+        }
+
+        #halskaeder .column_content {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+
+        #halskaeder .top {
+            align-self: auto;
+            flex-grow: 1;
+        }
+
+        #halskaeder .bottom {
+            align-self: flex-end;
+            flex-grow: 1;
+        }
+
+        #halskaeder img {
+            width: 100%;
+            flex: none;
+            align-items: center;
+            padding: 10px;
+        }
+
+        /* sectionen #armbaand */
+
+        #armbaand .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #armbaand .column {
+            flex-grow: 1;
+            flex-basis: 250px;
+            margin: 4px;
+        }
+
+        #armbaand .column_content {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+
+        #armbaand .top {
+            align-self: auto;
+            flex-grow: 1;
+        }
+
+        #armbaand .bottom {
+            align-self: flex-end;
+            flex-grow: 1;
+        }
+
+        #armbaand img {
+            width: 100%;
+            flex: none;
+            align-items: center;
+            padding: 10px;
+        }
+
+        /* sectionen #nyheder */
+
+        #nyheder .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #nyheder .column {
+            flex-grow: 1;
+            flex-basis: 250px;
+            margin: 4px;
+        }
+
+        #nyheder .column_content {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+
+        #nyheder .top {
+            align-self: auto;
+            flex-grow: 1;
+        }
+
+        #nyheder .bottom {
+            align-self: flex-end;
+            flex-grow: 1;
+        }
+
+        #nyheder img {
+            width: 100%;
+            flex: none;
+            align-items: center;
+            padding: 10px;
+        }
+
+        /* sectionen #om */
+
+        #om .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #om .column {
+            flex-grow: 1;
+            flex-basis: 375px;
+            margin: 10px;
+        }
+
+        #om img {
+            width: 90%;
+            margin: 10px;
+            align-items: center;
+        }
+
+        #om h1 {
+            padding: 10px 10px 0 10px;
+            margin-bottom: 0px;
+        }
+
+        #om p {
+            margin-top: 0px;
+        }
+
+        /** sektionen Information **/
+
+        #information {
+            font-family: 'Quicksand', sans-serif;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            margin: 0 0vw 0 0;
+            background-color: #f3c7be;
+            text-align-last: center;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        #information button {
+            background-color: #f3c7be;
+            border: none;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1.2em;
+        }
+
+        #information input {
+            width: 40vw;
+        }
+
+        /** Information slut **/
+
+        /** Produkt.html -- sektionen produkt **/
+
+        #produkt .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #produkt .column {
+            flex-grow: 1;
+            flex-basis: 250px;
+            margin: 4px;
+        }
+
+        #produkt.column_content {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+
+        }
+
+        #produkt .top {
+            align-self: auto;
+            flex-grow: 1;
+            padding: 20px 75px 75px 75px;
+        }
+
+        #produkt .bottom {
+            align-self: flex-end;
+            flex-grow: 1;
+            padding-bottom: 75px;
+            padding-left: 75px;
+            padding-right: 75px;
+
+        }
+
+        #produkt .bottom img {
+            align-self: center;
+            width: 10%;
+        }
+
+        footer {
+            font-family: 'Quicksand', sans-serif;
+            text-transform: uppercase;
+            font-size: 0.7em;
+            margin: 0vw 0vw 0vw 0vw;
+            background-color: #cebca5;
+            text-align-last: center;
+            text-decoration: none;
+            display: block;
+            padding: 1px;
+        }
+
+
+
+        footer p {
+            background-color: #cebca5;
+        }
+
+
+        /********splash*******/
 
         #splash {
             width: 100vw;
