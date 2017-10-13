@@ -54,6 +54,8 @@
             width: 20vw;
         }
 
+
+
         @media screen and (min-width: 676px) {
             header nav a {
                 display: inline-block;
@@ -381,6 +383,11 @@
                 padding-right: 75px;
 
             }
+
+#produkt .bottom img {
+    align-self: center;
+    width: 10%;
+}
 
             footer {
                 font-family: 'Quicksand', sans-serif;
