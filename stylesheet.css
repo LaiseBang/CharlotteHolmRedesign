@@ -546,3 +546,20 @@
             padding-right: 75px;
 
         }
+
+ footer {
+            font-family: 'Quicksand', sans-serif;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            margin: 0 0vw 0 0;
+            background-color: #f3c7be;
+            text-align-last: center;
+            text-decoration: none;
+            display: block;
+        }
+
+
+
+footer p {
+background-color: #cebca5;
+}
