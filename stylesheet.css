@@ -129,114 +129,7 @@
             margin: 0;
         }
 
-        /********splash*******/
 
-        #splash {
-            width: 100vw;
-            max-width: 600px;
-            margin: 0 auto;
-            height: auto;
-            /*** styrer hvor meget plads der er til billederne, hvis den er for stor er de efterfølgende sektioner for langt nede på siden ***/
-            /*            background-image: url(images/splash/mobile_portrait.jpg);*/
-            background-repeat: no-repeat;
-            background-size: 100%;
-        }
-
-        #cf {
-            position: relative;
-            height: 425px;
-            margin: 0 auto;
-        }
-
-        #cf img {
-            position: absolute;
-            left: 0;
-            -webkit-transition: opacity 1s ease-in-out;
-            -moz-transition: opacity 1s ease-in-out;
-            -o-transition: opacity 1s ease-in-out;
-            transition: opacity 1s ease-in-out;
-            padding: 10px;
-        }
-
-        @keyframes cf3FadeInOut {
-            0% {
-                opacity: 1;
-            }
-            45% {
-                opacity: 1;
-            }
-            55% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
-
-        #cf img.top {
-            animation-name: cf3FadeInOut;
-            animation-timing-function: ease-in-out;
-            animation-iteration-count: infinite;
-            animation-duration: 5s;
-            animation-direction: alternate;
-            animation-delay: 4s;
-        }
-
-        #cf img.middle {
-            animation-name: cf3FadeInOut;
-            animation-timing-function: ease-in-out;
-            animation-iteration-count: infinite;
-            animation-duration: 5s;
-            animation-direction: alternate;
-            animation-delay: 2s;
-        }
-
-
-        /*tablet portræt*/
-
-        @media screen and (min-width: 376px) and (max-width: 768px) and (orientation: portrait) {
-            #splash {}
-        }
-
-        /*mobil landskab*/
-
-        @media screen and (min-width: 376px) and (max-width: 627px) and (orientation: landscape) {
-            body {}
-            #splash {
-                width: 200px;
-
-
-
-            }
-
-            /*tablet landscape*/
-            @media screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
-                body {}
-                #splash {
-                    max-width: 300px;
-
-                }
-
-            }
-
-            /*desktop landskab*/
-            @media screen and (min-width: 1025px) and (max-width: 2560px) and (orientation: landscape) {
-                body {}
-                #splash {
-                    max-width: 300px;
-                    padding: 10 50 10 50;
-                }
-            }
-
-            /* retina*/
-            @media (min-width: 1025px),
-            screen and (min-resolution:192dpi) and (min-width:1025px) {
-                #splash {
-                    max-width: 300px;
-                }
-            }
-
-            /**********splash slut***************/
             /**********farver ******************/
             .farve {
                 width: 40px;
@@ -505,3 +398,113 @@
             footer p {
                 background-color: #cebca5;
             }
+
+
+  /********splash*******/
+
+        #splash {
+            width: 100vw;
+            max-width: 600px;
+            margin: 0 auto;
+            height: auto;
+            /*** styrer hvor meget plads der er til billederne, hvis den er for stor er de efterfølgende sektioner for langt nede på siden ***/
+            /*            background-image: url(images/splash/mobile_portrait.jpg);*/
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        #cf {
+            position: relative;
+            height: 425px;
+            margin: 0 auto;
+        }
+
+        #cf img {
+            position: absolute;
+            left: 0;
+            -webkit-transition: opacity 1s ease-in-out;
+            -moz-transition: opacity 1s ease-in-out;
+            -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+            padding: 10px;
+        }
+
+        @keyframes cf3FadeInOut {
+            0% {
+                opacity: 1;
+            }
+            45% {
+                opacity: 1;
+            }
+            55% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        #cf img.top {
+            animation-name: cf3FadeInOut;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            animation-direction: alternate;
+            animation-delay: 4s;
+        }
+
+        #cf img.middle {
+            animation-name: cf3FadeInOut;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            animation-direction: alternate;
+            animation-delay: 2s;
+        }
+
+
+        /*tablet portræt*/
+
+        @media screen and (min-width: 376px) and (max-width: 768px) and (orientation: portrait) {
+            #splash {}
+        }
+
+        /*mobil landskab*/
+
+        @media screen and (min-width: 376px) and (max-width: 627px) and (orientation: landscape) {
+            body {}
+            #splash {
+                width: 200px;
+
+
+
+            }
+
+            /*tablet landscape*/
+            @media screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
+                body {}
+                #splash {
+                    max-width: 300px;
+
+                }
+
+            }
+
+            /*desktop landskab*/
+            @media screen and (min-width: 1025px) and (max-width: 2560px) and (orientation: landscape) {
+                body {}
+                #splash {
+                    max-width: 300px;
+                    padding: 10vw 50vw 10vw 50vw;
+                }
+            }
+
+            /* retina*/
+            @media (min-width: 1025px),
+            screen and (min-resolution:192dpi) and (min-width:1025px) {
+                #splash {
+                    max-width: 300px;
+                }
+            }
+
+            /**********splash slut***************/
