@@ -362,7 +362,7 @@
         }
 
         #information input {
-            width: 40vw;
+            width: 30vw;
         }
 
         /** Information slut **/
@@ -429,12 +429,9 @@
         /********splash*******/
 
         #splash {
-            width: 100vw;
+            /**     width: 100vw; **/
             max-width: 600px;
             margin: 0 auto;
-            height: auto;
-            /*** styrer hvor meget plads der er til billederne, hvis den er for stor er de efterfølgende sektioner for langt nede på siden ***/
-            /*            background-image: url(images/splash/mobile_portrait.jpg);*/
             background-repeat: no-repeat;
             background-size: 100%;
         }
