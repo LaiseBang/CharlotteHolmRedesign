@@ -35,14 +35,14 @@
             font-size: 0.8em;
             margin: 0 0vw 0 0;
             background-color: #f3c7be;
-            text-align-last: justify;
+            text-align-last: center;
             padding: 15px;
         }
 
         header nav a {
             text-decoration: none;
             color: #352224;
-            padding-left: 5px;
+            padding-left: 45px;
             display: block;
             background-color: #f3c7be;
         }
