@@ -443,7 +443,7 @@
             padding: 10px;
         }
 
-        @keyframes cf3FadeInOut {
+        @keyframes FadeInOut {
             0% {
                 opacity: 1;
             }
@@ -459,7 +459,7 @@
         }
 
         #splash img.top {
-            animation-name: cf3FadeInOut;
+            animation-name: FadeInOut;
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
             animation-duration: 5.5s;
@@ -468,7 +468,7 @@
         }
 
         #splash img.middle {
-            animation-name: cf3FadeInOut;
+            animation-name: FadeInOut;
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
             animation-duration: 5s;
