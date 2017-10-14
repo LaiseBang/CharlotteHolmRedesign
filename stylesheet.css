@@ -427,17 +427,14 @@
         /********splash*******/
 
         #splash {
+            position: relative;
+            height: 425px;
+            margin: 0 auto;
             max-width: 600px;
             margin: 0 auto;
         }
 
-        #cf {
-            position: relative;
-            height: 425px;
-            margin: 0 auto;
-        }
-
-        #cf img {
+        #splash img {
             position: absolute;
             -webkit-transition: opacity 1s ease-in-out;
             -moz-transition: opacity 1s ease-in-out;
@@ -461,7 +458,7 @@
             }
         }
 
-        #cf img.top {
+        #splash img.top {
             animation-name: cf3FadeInOut;
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
@@ -470,7 +467,7 @@
             animation-delay: 3s;
         }
 
-        #cf img.middle {
+        #splash img.middle {
             animation-name: cf3FadeInOut;
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
