@@ -360,11 +360,6 @@
         /********splash*******/
 
         #splash {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        #cf {
             position: relative;
             height: 425px;
             margin: 0 auto;
@@ -375,7 +370,7 @@
 
 
 
-        #cf img {
+        #splash img {
             position: absolute;
             -webkit-transition: opacity 1s ease-in-out;
             -moz-transition: opacity 1s ease-in-out;
@@ -399,7 +394,7 @@
             }
         }
 
-        #cf img.top {
+        #splash img.top {
             animation-name: FadeInOut;
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
@@ -408,7 +403,7 @@
             animation-delay: 3s;
         }
 
-        #cf img.middle {
+        #splash img.middle {
             animation-name: FadeInOut;
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
@@ -436,7 +431,7 @@
         @media screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
             body {}
             #splash {
-/*                max-width: 300px;*/
+                /*                max-width: 300px;*/
             }
         }
 
@@ -445,8 +440,8 @@
         @media screen and (min-width: 1025px) and (max-width: 2560px) and (orientation: landscape) {
             body {}
             #splash {
-/*                max-width: 300px;*/
-/*                padding: 10vw 50vw 10vw 50vw;*/
+                /*                max-width: 300px;*/
+                /*                padding: 10vw 50vw 10vw 50vw;*/
             }
         }
 
@@ -455,6 +450,6 @@
         @media (min-width: 1025px),
         screen and (min-resolution:192dpi) and (min-width:1025px) {
             #splash {
-/*                max-width: 300px;*/
+                /*                max-width: 300px;*/
             }
             /**********splash slut***************/
