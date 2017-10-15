@@ -20,29 +20,41 @@
 
         /********** menu **************/
 
+        /*
+        header {
+            position: fixed;
+
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+            width: 100%;
+        }
+*/
+
         header nav {
             font-family: 'Quicksand', sans-serif;
             text-transform: uppercase;
             font-size: 0.8em;
             margin: 0 0vw 0 0;
             background-color: #f3c7be;
-            text-align-last: center;
+            text-align-last: justify;
             padding: 15px;
         }
 
         header nav a {
             text-decoration: none;
             color: #352224;
-            padding-left: 45px;
+            padding-left: 5px;
             display: block;
             background-color: #f3c7be;
         }
 
+
         header img {
             display: block;
             margin: auto;
-            width: 300px;
+            width: 20vw;
         }
+
+
 
         @media screen and (min-width: 676px) {
             header nav a {
@@ -62,6 +74,22 @@
             font-family: 'Quicksand', sans-serif;
             font-size: 1.1em;
             text-align-last: right;
+        }
+
+        /****** Fonte********------em forholder sig til sidens størrelse hvis ikke andet er defineret er 1em= 16px---------*/
+
+        @font-face {
+            font-family: 'XXXX';
+            src: url('fonts/p22morrisgolden_regular-webfont.woff2') format('woff2'), url('fonts/p22morrisgolden_regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'XXXX';
+            src: url('fonts/p22_morris_troy_regular-webfont.woff2') format('woff2'), url('fonts/p22_morris_troy_regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
         }
 
         .forklaring {
@@ -103,12 +131,49 @@
             margin: 0;
         }
 
+
+        /**********farver ******************/
+
+        .farve {
+            width: 40px;
+            height: 40px;
+            border-radius: 100px;
+            /** = rund 10px_ runde hjørner*/
+        }
+
+        .corel {
+            background-color: #f1826b
+        }
+
+        .brown {
+            background-color: #8c7154
+        }
+
+        .beige {
+            background-color: #cebca5
+        }
+
+        .rosa {
+            background-color: #fdf2f0
+        }
+
+        .eggshell {
+            background-color: #f5f5f5
+        }
+
+        .black {
+            background-color: #000000
+        }
+
+
+
         /* sectionen #oereringe */
 
         #oereringe .sectionwrapper {
             display: flex;
             flex-wrap: wrap;
         }
+
 
         #oereringe .column {
             flex-grow: 1;
@@ -297,12 +362,12 @@
         }
 
         #information input {
-            width: 30vw;
+            width: 40vw;
         }
 
         /** Information slut **/
 
-        /** sektionen produkt **/
+        /** Produkt.html -- sektionen produkt **/
 
         #produkt .sectionwrapper {
             display: flex;
@@ -334,6 +399,7 @@
             padding-bottom: 75px;
             padding-left: 75px;
             padding-right: 75px;
+
         }
 
         #produkt .bottom img {
@@ -353,30 +419,35 @@
             padding: 1px;
         }
 
+
+
         footer p {
             background-color: #cebca5;
         }
 
+
         /********splash*******/
 
         #splash {
+            width: 100vw;
             max-width: 600px;
             margin: 0 auto;
+            height: auto;
+            /*** styrer hvor meget plads der er til billederne, hvis den er for stor er de efterfølgende sektioner for langt nede på siden ***/
+            /*            background-image: url(images/splash/mobile_portrait.jpg);*/
+            background-repeat: no-repeat;
+            background-size: 100%;
         }
 
         #cf {
             position: relative;
             height: 425px;
             margin: 0 auto;
-            max-width: 600px;
-            margin: 0 auto;
-
         }
-
-
 
         #cf img {
             position: absolute;
+            left: 0;
             -webkit-transition: opacity 1s ease-in-out;
             -moz-transition: opacity 1s ease-in-out;
             -o-transition: opacity 1s ease-in-out;
@@ -384,7 +455,7 @@
             padding: 10px;
         }
 
-        @keyframes FadeInOut {
+        @keyframes cf3FadeInOut {
             0% {
                 opacity: 1;
             }
@@ -400,22 +471,23 @@
         }
 
         #cf img.top {
-            animation-name: FadeInOut;
+            animation-name: cf3FadeInOut;
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
-            animation-duration: 5.5s;
+            animation-duration: 5s;
             animation-direction: alternate;
-            animation-delay: 3s;
+            animation-delay: 4s;
         }
 
         #cf img.middle {
-            animation-name: FadeInOut;
+            animation-name: cf3FadeInOut;
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
             animation-duration: 5s;
             animation-direction: alternate;
             animation-delay: 2s;
         }
+
 
         /*tablet portræt*/
 
@@ -426,35 +498,39 @@
         /*mobil landskab*/
 
         @media screen and (min-width: 376px) and (max-width: 627px) and (orientation: landscape) {
+            body {}
             #splash {
                 width: 200px;
+
+
+
             }
-        }
 
-        /*tablet landscape*/
+            /*tablet landscape*/
+            @media screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
+                body {}
+                #splash {
+                    max-width: 300px;
 
-        @media screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
-            body {}
-            #splash {
-/*                max-width: 300px;*/
+                }
+
             }
-        }
 
-        /*desktop landskab*/
-
-        @media screen and (min-width: 1025px) and (max-width: 2560px) and (orientation: landscape) {
-            body {}
-            #splash {
-/*                max-width: 300px;*/
-/*                padding: 10vw 50vw 10vw 50vw;*/
+            /*desktop landskab*/
+            @media screen and (min-width: 1025px) and (max-width: 2560px) and (orientation: landscape) {
+                body {}
+                #splash {
+                    max-width: 300px;
+                    padding: 10vw 50vw 10vw 50vw;
+                }
             }
-        }
 
-        /* retina*/
-
-        @media (min-width: 1025px),
-        screen and (min-resolution:192dpi) and (min-width:1025px) {
-            #splash {
-/*                max-width: 300px;*/
+            /* retina*/
+            @media (min-width: 1025px),
+            screen and (min-resolution:192dpi) and (min-width:1025px) {
+                #splash {
+                    max-width: 300px;
+                }
             }
+
             /**********splash slut***************/
